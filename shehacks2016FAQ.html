@@ -31,6 +31,18 @@
 				width: 100%;
 				height: 100%;
 			}
+			/* cellpadding */
+th, td { padding: 5px; text-align: center;}
+
+/* cellspacing */
+table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+table { border-collapse: collapse; border-spacing: 0; }   /* cellspacing="0" */
+
+/* valign */
+th, td { vertical-align: top; }
+
+/* align (center) */
+table { margin: 0 auto; }
 		</style>
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -79,13 +91,12 @@
 			</div>
 
 		<!-- About -->
-			<div class="wrapper style2">
+		<div class="wrapper style2">
 				<article class="container" id="top">
-					<div class="row">
-						<div class="8u 12u(mobile)">
-						<header>
-							<h2>About SheHacks 2016</h2>
-						</header>
+					<div class="12u 12u(mobile)">
+							<header>
+								<h2>About SheHacks 2016</h2>
+							</header>
 							<p>This year we are doing things a little differently. We will ask you to fill in a questionaire and give you an opportunity to apply as a team. We will also try and put teams together prior to event. This year Friday night ends at 10pm (not midnight) so being in teams will allow you to get to know your fellow hackers prior to the hackathon, and can start bouncing ideas in a Slack group that will be created for your team. Certainly, if you prefer you can meet people and form groups on the Friday night. However, with the new timing, it might be a bit tight.
 
 
@@ -147,14 +158,25 @@
 							<p>Each team will need to get up and give a 3-5 minute pitch of their project at the end of the Saturday. These presentations count, so use all the skills in your team to make it compelling. After this, our judging panel deliberate and vote. </p>
 							<p>We will have first place, second and third place and prizes for each team. We also have a new category of team with the "Most Potential" this year.</p>
 							<p>Prizes will be awarded from representatives of each company (see our sponsors section below). Our sponsors are still locking down exact prizes, but let's just say those we do know about are very, very cool! Stay tuned.</p>
-
-							<!--p><strong>SPONSOR LOGOS TO BE ADDED HERE </strong></p-->
 						</div>
+				</article>
+		</div>
+
+		<div class="wrapper style1">
+			<article class="container" id="top">
+					<div class="12u 12u(mobile)">
+						<p><strong>SPONSORS</strong></p>
+						<p>We would like to thank our fantastic and generous sponsors for making this event possible. We very much appreciate their help, generosity and their mutual coming together to support Women in Tech.</p>
+						<div class="12u">
+							<ul class="social">
+								<li><span class="image fit"><img src="images/atlassianlogo.png" /></span></li>
+								<li><span class="image fit"><img src="images/nine_digital_blue.png" /></span></li>
+								<li><span class="image fit"><img src="images/myob.jpeg" /></span></li>
+							</ul>
 						</div>
-					</article>
-			</div>
-
-
+					</div>
+			</article>
+		</div>
 		<!-- Social Media -->
 			<div class="wrapper style4">
 				<article id="contactus">
